@@ -1,0 +1,29 @@
+
+/* selector general*/
+
+* {
+    color: rgb(0, 0, 0);
+    
+}
+
+
+/* selector por etiqueta*/
+h1 {
+    height: 250px;
+    background-image: url(../src/design1_image1.jpg);
+    background-position:center;
+    background-size: cover;
+}
+
+img{
+    width: 200px;
+}
+
+main>section>h2{
+    color: rgb(255, 255, 255);
+    font-style: normal;
+    height: 50px;
+    background-color:black;
+    background-size: cover;
+}
+
