@@ -2,28 +2,67 @@
 /* selector general*/
 
 * {
-    color: rgb(0, 0, 0);
+	margin: 0;
+	padding: 0;
+	list-style: none;
+	text-decoration: none;
+	border: none;
+	outline: none;
+    /* color: rgb(0, 0, 0); */
     
 }
-
-
 /* selector por etiqueta*/
-h1 {
-    height: 250px;
+header {
+    margin: 1% 10% 0px 10%;
+    height: 150px;
     background-image: url(../src/design1_image1.jpg);
-    background-position:center;
-    background-size: cover;
+    background-position: 0px 30%; 
+    background-size:cover;
+    border-radius: 20px 20px 0px 0px ;
+    text-shadow:yellow 2px 2px 5px;
 }
 
+#lateral {
+    margin-top: 4%;
+    background-color: white;
+    float:left;
+    height: 100%;
+}
+nav >a{
+    display: block;
+}
+
+#titulo{
+    margin: 2px 10% 0px 10%;
+    height: 30px;
+    color: white;
+    background-color: black; 
+    background-size:cover;
+    border-radius: 0px 0px 25px 25px ;
+    border-style: solid; 
+    font-size: large;
+    text-align: center;
+    border:1px dotted #000; padding:8px;
+}
+#logo{
+width: 100px;
+margin: 2px ;
+padding: 2px;
+background-color: aliceblue;
+}
+
+figure{
+
+}
+
+#cuerpo{
+    margin: 0px 10% 0px 10%;
+
+}
+
+article{
+    margin-top: 4%;
+}
 img{
-    width: 200px;
+    max-width: 100%;
 }
-
-main>section>h2{
-    color: rgb(255, 255, 255);
-    font-style: normal;
-    height: 50px;
-    background-color:black;
-    background-size: cover;
-}
-
