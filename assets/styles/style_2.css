@@ -1,0 +1,76 @@
+/* selector general*/
+
+* {
+	margin: 0;
+	padding: 0;
+	list-style: none;
+	text-decoration: none;
+	border: none;
+	outline: none;
+    /* color: rgb(0, 0, 0); */
+    
+}
+/* selector por etiqueta*/
+header>h1{
+    margin-left: 1%;
+}
+
+#banner {
+    margin: 0.5% 0px 0px 1%;
+    height: 150px;
+    background-image: url(../src/design1_image1.jpg);
+    background-position: 0px 30%; 
+    background-size:cover;
+    border-radius: 20px 20px 0px 0px ;
+}
+#titulo{
+    margin: 0.1% 0px 0px 1%;
+    height: 30px;
+    color: rgb(0, 0, 0);
+    background-color: rgb(255, 255, 255); 
+    background-size:cover;
+    border-radius: 0px 0px 25px 25px ;
+    border-style: solid; 
+    font-size: large;
+    text-align: center;
+    border:1px solid #000; padding:8px;
+}
+#menu {
+    position: absolute;
+    right: 1%;
+    top: 4%;
+}
+nav>a{
+    color: aliceblue;
+    border:1px solid #000; padding:8px;
+    border-radius: 5px 5px 5px 5px ;
+    display: inline;
+    background-color: rgb(68, 114, 196);
+}
+nav>a.pressed{
+    background-color: limegreen;
+}
+nav, #cuerpo{
+    display: inline-block;
+}
+
+#logo{
+    margin: 50px 10% 0px 0px;
+    width: 100px;
+    padding: 2px;
+    background-color: aliceblue;
+    position: absolute;
+    left: 1%;
+    display: inline-block;
+}
+
+#cuerpo{
+    margin: 0px 10% 0px 20%;
+}
+article{
+    margin-top: 4%;
+}
+img{
+    max-width: 100%;
+}
+
