@@ -56,8 +56,11 @@ nav, #cuerpo{
 }
 
 #logo{
+    background-image: url(../src/logo.png);
+    height: 75px;
+    background-size: cover;
+    width: 75px;
     margin: 50px 10% 0px 0px;
-    width: 100px;
     padding: 2px;
     background-color: aliceblue;
     position: absolute;

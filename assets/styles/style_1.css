@@ -29,6 +29,7 @@ header {
     margin-left: 5%;
     position:absolute;
     left:0
+    
 }
 nav>a{
     display: block;
@@ -48,20 +49,23 @@ nav>a{
 
 }
 
-
 #logo{
-width: 5%;
+    background-image: url(../src/logo.png);
+    height: 75px;
+    background-size: cover;
+    width: 75px;
 margin: 2px ;
 padding: 2px;
 background-color: aliceblue;
 position: relative;
-right: -40%;
-top: -175%
+right: -80%;
+top: -200%
 }
 
 
 #cuerpo{
     margin: 0px 10% 0px 20%;
+    margin-top: 40px;
 }
 
 article{

@@ -9,6 +9,8 @@
 }
 
 #logo{
+    background-image: url(../src/logo_blank.png);
+    background-size: cover;
     margin: 50px 10% 0px 0px;
     width: 100px;
     height: 100px;
@@ -33,14 +35,17 @@ header{
     padding: 8px;
     margin: 8px;
     border-radius: 20px 20px 20px 20px ;
+    border:1px solid black;
 }
 h1{
-    padding-top: 50px;
-    visibility:hidden;
+    padding-top: 25px;
+    font-size: 50px;
+    color: rgb(243, 233, 86);
+    -webkit-text-stroke: red .9px;
 }
 img{
     max-width: 100%;
-        border-radius: 0px 0px 25px 25px ;
+    border-radius: 0px 0px 25px 25px ;
 }
 #banner {
     height: 700px;
@@ -67,6 +72,8 @@ a{
     letter-spacing: 3px;
     justify-content: space-evenly;
     display:inline;
+    border-right: 1px solid black;
+
 }
 a:after{
     content: "";
@@ -88,15 +95,19 @@ a:hover:after{
 
 
 #titulo{
-
+    margin-top: 40px;
     height: 30px;
-    color: rgb(0, 0, 0);
+    font-size: 34px;
+    color: rgb(243, 233, 86);
+    -webkit-text-stroke: red .9px;
     background-color: rgb(255, 255, 255); 
     background-size:cover;
-    border-radius: 0px 0px 25px 25px ;
-    border-style: solid; 
-    font-size: large;
     text-align: center;
-    border:1px solid #000; padding:8px;
+
 }
 
+#cuerpo>article{
+    font-size: 25px;
+    margin-top: 100px;
+    text-align: center;
+}
