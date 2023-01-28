@@ -68,7 +68,7 @@ nav, #cuerpo{
     display: inline-block;
 }
 
-#cuerpo{
+#cuerpo, #about{
     margin: 0px 10% 0px 20%;
 }
 section, article, main>div{
@@ -76,4 +76,8 @@ section, article, main>div{
 }
 img{
     max-width: 100%;
+}
+footer{
+    visibility: hidden;
+    display: none;
 }
