@@ -40,7 +40,7 @@ h1{
 }
 img{
     max-width: 100%;
-    border-radius: 0px 0px 25px 25px ;
+        border-radius: 0px 0px 25px 25px ;
 }
 #banner {
     height: 700px;
@@ -85,14 +85,6 @@ a:hover:after{
     transform:scalex(4);
 }
 
-div#banner>nav#menu>div#left{
-
-
-}
-div#banner>nav#menu>div#rigth{
-
-
-}
 
 
 #titulo{
