@@ -52,6 +52,7 @@ img{
     max-width: 100%;
     border-radius: 0px 0px 25px 25px ;
 }
+/*//////////////////BANNERS////////////////////*/
 #banner,#banner2, #banner3,#banner4,#banner5 {
     margin-left: 1%;
     margin-right: 1%;
@@ -83,7 +84,7 @@ div>nav#menu{
     right: 0px;
     top: 0px;
 }
-
+/*////////////////MENU SUPERIOR//////////////////////*/
 #menu>a{
     color: black;
     font-size: 1.5rem;
@@ -109,7 +110,7 @@ div>nav#menu{
     transform:scalex(1);
 }
 
-
+/*/////////////////TITLE/////////////////////*/
 #titulo{
     margin-top: 40px;
     height: 30px;
@@ -120,6 +121,7 @@ div>nav#menu{
     background-color: rgb(255, 255, 255); 
     background-size:cover;
 }
+/*/////////////////HOME/////////////////////*/
 .contenido{
     margin: 100px 40% 100px 40%;
     padding: 30px 30px 30px 30px;
@@ -136,6 +138,7 @@ div>nav#menu{
     background-color: rgb(255, 255, 255); 
 }
 
+/*//////////////GAME INFORMATION////////////////////////*/
 table.game__table {
     border: 1px solid #F3E956;
     background-color: #EEEEEE;
@@ -147,12 +150,26 @@ table.game__table td, table.game__table th {
     border: 1px solid #AAAAAA;
     padding: 3px 2px;
 }
+iframe{
+    display: none;
+}
+.Location{
+    color: blue;
+}
+.Location:hover>iframe{
+    display: block;
+    position: absolute;
+    right: 12.65%;
+    bottom:-12%;
+    height: 29%;
+    outline: 1px solid black;
+
+}
 table.game__table thead {
     background: #5FA499;
     background: linear-gradient(to top, #87bbb2 0%, #6fada3 66%, #5FA499 100%);
     border-bottom: 2px solid #444444;
 }
-
 #cuerpo_info{
     display: flex;
     flex-direction: column;
@@ -166,14 +183,10 @@ table.game__table thead {
 #info>div{
     margin-top: 10px;
 }
-
-footer>ul{
-    list-style-type:none;
-}
 article>ul{
     list-style-type:circle;
 }
-
+/*/////////////RULES/////////////////////////*/
 #cuerpo_rules{
     display: flex;
     flex-direction: column;
@@ -190,7 +203,7 @@ article>ul{
 #cuerpo_rules>article>ol>li{
     margin-top: 15px;
 }
-
+/*//////////////////////////////////////*/
 body{
     margin: 2px 2px 10% 2px;
 }   
@@ -205,7 +218,7 @@ main>#lineaVertical{
     background-color: var(--green);
     z-index: -1;
 }
-
+/*/////////////ABOUT/////////////////////////*/
 #about{
     display: flex;
     align-items: center;
@@ -246,6 +259,53 @@ main>#lineaVertical{
     border:1px solid black;
 }
 
+/*/////////////// FORMULARIO///////////////////////*/
+#cuerpo_form{
+    width: 42%;
+    margin: 20px 29%;
+    outline: 1px solid black;
+}
+fieldset{
+    margin-top: 20px;
+}
+legend{
+    font-weight:bold;
+}
+label{
+    margin-top: 5px;
+    margin-right: 20px;
+}
+input{
+    border-bottom: 0.5px solid black;
+}
+#sign>label{
+    margin-top: 20px;
+}
+.container{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin: auto;
+}
+.item{
+    display: flex;
+    width: 45%;
+    justify-content: left;
+    align-items: center;
+}
+fieldset>div{
+    margin-bottom: 10px;
+}
+fieldset#sign>label{
+        display: block;
+}
+form>input{
+    float: right;
+    margin-right: 50px;
+    position: relative;
+    bottom: 20px;
+}
+/*/////////////CONTACTO/////////////////////////*/
 #contact>p{
     font-size: medium;
 }
@@ -270,7 +330,7 @@ main>#lineaVertical{
     margin-left: 40%;
     margin-top: 3%;
 }
-
+/*/////////////FOOTER/////////////////////////*/
 footer{
     display: flex;
     flex-direction: column;
@@ -290,6 +350,7 @@ footer>ul{
     padding: 0;
     display: flex;
     margin-bottom: 20px;
+    list-style-type:none;
 }
 #divfooter{
     content: "";
