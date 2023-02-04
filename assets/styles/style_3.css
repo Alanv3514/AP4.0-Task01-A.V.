@@ -159,8 +159,8 @@ iframe{
 .Location:hover>iframe{
     display: block;
     position: absolute;
-    right: 12.65%;
-    bottom:-12%;
+    right: 16.65%;
+    bottom:-13%;
     height: 29%;
     outline: 1px solid black;
 
