@@ -6,8 +6,6 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Mighty Ducks Hockey League</title>
     <link rel="shortcut icon" href="./assets/src/logo.png">
-    <!-- <link rel="stylesheet" href="./assets/styles/style_1.css"> -->
-    <!-- <link rel="stylesheet" href="./assets/styles/style_2.css"> -->
     <link rel="stylesheet" href="./assets/styles/style_3.css">
 
 </head>
@@ -67,7 +65,7 @@
 
             <fieldset>
                 <legend> Which elementary school do you live near?</legend>
-                <label>Closest School: </label>
+                <p>Closest School: </p>
                 <div class="container">
                 <label class="item"><input type="radio" name="school" id="AJ_Katzenmaier" value="AJ Katzenmaier">AJ Katzenmaier</label>
                 <label class="item"><input type="radio" name="school" id="Marjorie_P_Hart" value="Marjorie P Hart">Marjorie P Hart </label>
@@ -103,15 +101,15 @@
             <fieldset id="sign">
                 <legend> Permission to Play</legend>
                 <p>I, the parent or guardian of the minor registrant, agree that the registrant and I will abide by all the rules of the Mighty Ducks Hockey League (MDHL). In recognizing the possibility of physical injury associated with hockey and in consideration for the "League" accepting the registrant for its hockey programs and activities, I hereby release, discharge, and/or otherwise indemnify MDHL, their employees and associated personnel and volunteers, including the facilities used for practices and games, against any claim by or on behalf of the registrant as a result of the registrant's participation in the programand/orbeing transported to or from MDHL sponsored activities, which transportation. By signing below, I herebyagree andauthorizethe above. In addition, by signing below, lalso acknowledge that I have read the cancellation policy and agree to its terms.</p>
-                <label >Parent/Guardian Signature: <input type="text" name="Parent" id="Parent"></label>
-                <label >Date: <input type="date" name="date" id="date"></label>
+                <label >Parent/Guardian Signature: <input type="text" name="Parent" id="Parent" required></label>
+                <label >Date: <input type="date" name="date" id="date" required></label>
             </fieldset>
             <input type="submit" value="Enviar">
             <input type="reset" value="Limpiar">
         </form>
     </main>
 
-    <footer><!--solamente utilizador en style3-->
+    <footer>
         <div id="divfooter"></div>
         <ul>
             <li><img src="./assets/icons/facebook.png" alt="facebook"></li>
